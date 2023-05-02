@@ -10,12 +10,12 @@ Clone esse repositório em seu computador:
 git clone https://github.com/daniortlepp/crud-books.git
 ```
 
-Acesse o diretório da API
+Acesse o diretório da aplicação:
 ```sh
 cd crud-books
 ```
 
-Instale as dependências
+Instale as dependências:
 ```sh
 composer install
 ```
