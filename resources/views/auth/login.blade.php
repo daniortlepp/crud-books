@@ -30,6 +30,12 @@
                                   @endif
                               </div>
                           </div>
+
+                          @if ($errors->any())
+                            <div class="form-group row">
+                                <span class="text-danger">{{ $errors->first() }}</span>
+                            </div>
+                          @endif
   
                           <div class="form-group row">
                             <div class="col-sm-12 col-md-12 col-lg-10">

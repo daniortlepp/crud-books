@@ -46,7 +46,7 @@ class AuthController extends Controller
                         ->withSuccess('Login efetuado com sucesso');
         }
   
-        return redirect("login")->withSuccess('Credencial(is) inválida(s)');
+        return redirect("login")->withErrors('Credencial(is) inválida(s)');
     }
       
     /**
